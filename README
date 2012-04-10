@@ -3,4 +3,4 @@ To compile move into sphinx/source and run
 
 sphinx-build -b html . ../../
 
-which ouputs the html in the project root.
+which ouputs the html in the project root. Probably should not be the root but anyway. 
