@@ -1,0 +1,6 @@
+
+To compile move into sphinx/source and run
+
+sphinx-build -b html . ../../
+
+which ouputs the html in the project root.
