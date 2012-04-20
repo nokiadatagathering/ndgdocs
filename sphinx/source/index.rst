@@ -30,6 +30,7 @@ Contents:
    skip.rst
    results.rst
    searching.rst
+   user-admin.rst
 
 
 
