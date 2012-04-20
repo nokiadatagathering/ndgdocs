@@ -1,0 +1,224 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Skip Logic &mdash; Nokia Data Gathering v4.04 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '4.04',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Nokia Data Gathering v4.04 documentation" href="index.html" />
+    <link rel="next" title="Results" href="results.html" />
+    <link rel="prev" title="Editor" href="editor.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="results.html" title="Results"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="editor.html" title="Editor"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Nokia Data Gathering v4.04 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="skip-logic">
+<span id="skip"></span><h1>Skip Logic<a class="headerlink" href="#skip-logic" title="Permalink to this headline">¶</a></h1>
+<p>Skip Logic which is also called relevance is a way to make a question be skipped based on the value of another question.</p>
+<p>The best way to explain how this works is through an example which is taken from the <a class="reference external" href="https://bitbucket.org/javarosa/javarosa/wiki/buildxforms">XForms Training Materials</a> Suppose we only want to ask the question &#8216;Are you pregnant?&#8217; if the sex of the patient is female. In the <a class="reference internal" href="editor.html"><em>Editor</em></a> create a survey with an exclusive choice question, the &#8216;Are you pregnant&#8217; question and another random question which all respondents can answer. They do not need to be in separate categories but are shown this way for clarity.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/skip-form.png"><img alt="Skip Logic creation in the editor" src="_images/skip-form.png" style="width: 64.0%; height: 204.0px;" /></a>
+<p class="caption">Skip Logic creation in the survey editor</p>
+</div>
+<p>Hovering next to the available options in the exclusive choice question makes an arrow appear.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/skip-arrow.png"><img alt="Arrow appears" src="_images/skip-arrow.png" style="width: 64.0%; height: 141.6px;" /></a>
+</div>
+<p>This arrow can now be dragged and dropped on the question to be skipped to if this answer option is selected</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/skip-arrow-drag.png"><img alt="Arrow drag" src="_images/skip-arrow-drag.png" style="width: 64.0%; height: 157.6px;" /></a>
+<p class="caption">Arrows can be dragged to represent skip logic relationships</p>
+</div>
+<p>The relationship is then visually represented by a change in the arrow color on the exclusive choice option</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/blue-arrow.png"><img alt="Skip Logic realtionship represented by a change in arrow color" src="_images/blue-arrow.png" style="width: 64.0%; height: 162.4px;" /></a>
+<p class="caption">Skip Logic realtionship represented by a change in arrow color</p>
+</div>
+<p>Anyone now answering &#8216;Male&#8217; to the Sex of the Patient exclusive choice question will now not be able to answer the question &#8216;Are you pregnant&#8217;.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/skip-arrow.png"><img alt="Greyed out" src="_images/skip-arrow.png" style="width: 64.0%; height: 141.6px;" /></a>
+</div>
+<p>Males will still be able to see the question but it will be greyed out and they will be unable to answer it.</p>
+<hr class="docutils" />
+<p><strong>Technical Details</strong></p>
+<p>In the actual survey XML the binding is added to the question that is conditionally skipped, not the question whose answer decides whether the other question is skipped. This is an important distinction that can be confusing. For example, here is the bind for the previous example.</p>
+<p>&lt;bind nodeset=&#8221;/data/category8978/question3539&#8221; type=&#8221;string&#8221; relevant=&#8221;/data/category5824/question9730=&#8217;female&#8217;&#8221; /&gt;</p>
+<p>which means bind the question3539 in category8978 to the answer &#8216;Female&#8217; of question question9730 in the category5824.</p>
+<p>Here is the full commented survey XML for the skip logic example</p>
+<div class="highlight-python"><pre>&lt;?xml version='1.0' ?&gt;
+&lt;h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa"&gt;
+ &lt;h:head&gt;
+   &lt;h:title&gt;Skip Logic Example&lt;/h:title&gt;
+   &lt;model&gt;
+     &lt;instance&gt;
+       &lt;!-- the XML inside here is what gets filled out and submitted when you complete the form --&gt;
+       &lt;data id="jej6isa7"&gt;
+         &lt;category5824&gt;
+           &lt;question9730&gt;&lt;/question9730&gt;
+         &lt;/category5824&gt;
+         &lt;category8978&gt;
+           &lt;question3539&gt;&lt;/question3539&gt;
+         &lt;/category8978&gt;
+         &lt;category7233&gt;
+           &lt;question5696&gt;&lt;/question5696&gt;
+         &lt;/category7233&gt;
+       &lt;/data&gt;
+     &lt;/instance&gt;
+     &lt;itext&gt;
+       &lt;translation lang="eng"&gt;
+         &lt;text id="/data/category5824:label"&gt;
+           &lt;value&gt;First Category&lt;/value&gt;
+         &lt;/text&gt;
+         &lt;text id="/data/category5824/question9730:label"&gt;
+           &lt;value&gt;Sex of the Patient&lt;/value&gt;
+         &lt;/text&gt;
+         &lt;text id="/data/category5824/question9730:optionmale"&gt;
+           &lt;value&gt;Male&lt;/value&gt;
+         &lt;/text&gt;
+         &lt;text id="/data/category5824/question9730:optionfemale"&gt;
+           &lt;value&gt;Female&lt;/value&gt;
+         &lt;/text&gt;
+         &lt;text id="/data/category8978:label"&gt;
+           &lt;value&gt;Second Category&lt;/value&gt;
+         &lt;/text&gt;
+         &lt;text id="/data/category8978/question3539:label"&gt;
+           &lt;value&gt;Are you pregnant (just females can answer)&lt;/value&gt;
+         &lt;/text&gt;
+         &lt;text id="/data/category7233:label"&gt;
+           &lt;value&gt;Third Category&lt;/value&gt;
+         &lt;/text&gt;
+         &lt;text id="/data/category7233/question5696:label"&gt;
+           &lt;value&gt;Males and Females can answer this&lt;/value&gt;
+         &lt;/text&gt;
+       &lt;/translation&gt;
+     &lt;/itext&gt;
+     &lt;!-- binds allow us to add properties to the questions, like data types, skip logic, constraints etc.--&gt;
+     &lt;bind nodeset="/data/category5824/question9730" type="select1" /&gt;
+     &lt;bind nodeset="/data/category8978/question3539" type="string" relevant="/data/category5824/question9730='female'" /&gt;
+     &lt;bind nodeset="/data/category7233/question5696" type="string" /&gt;
+   &lt;/model&gt;
+ &lt;/h:head&gt;
+ &lt;h:body&gt;
+   &lt;!-- This is where we define the questions that the user will fill out --&gt;
+   &lt;group&gt;
+     &lt;label ref="jr:itext('/data/category5824:label')" /&gt;
+     &lt;select1 ref="/data/category5824/question9730"&gt;
+       &lt;label ref="jr:itext('/data/category5824/question9730:label')" /&gt;
+       &lt;item&gt;
+         &lt;label ref="jr:itext('/data/category5824/question9730:optionmale')" /&gt;
+         &lt;value&gt;male&lt;/value&gt;
+       &lt;/item&gt;
+       &lt;item&gt;
+         &lt;label ref="jr:itext('/data/category5824/question9730:optionfemale')" /&gt;
+         &lt;value&gt;female&lt;/value&gt;
+       &lt;/item&gt;
+     &lt;/select1&gt;
+   &lt;/group&gt;
+   &lt;group&gt;
+     &lt;label ref="jr:itext('/data/category8978:label')" /&gt;
+     &lt;input ref="/data/category8978/question3539"&gt;
+       &lt;label ref="jr:itext('/data/category8978/question3539:label')" /&gt;
+     &lt;/input&gt;
+   &lt;/group&gt;
+   &lt;group&gt;
+     &lt;label ref="jr:itext('/data/category7233:label')" /&gt;
+     &lt;input ref="/data/category7233/question5696"&gt;
+       &lt;label ref="jr:itext('/data/category7233/question5696:label')" /&gt;
+     &lt;/input&gt;
+   &lt;/group&gt;
+ &lt;/h:body&gt;
+&lt;/h:html&gt;</pre>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="editor.html"
+                        title="previous chapter">Editor</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="results.html"
+                        title="next chapter">Results</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/skip.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="results.html" title="Results"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="editor.html" title="Editor"
+             >previous</a> |</li>
+        <li><a href="index.html">Nokia Data Gathering v4.04 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Nokia.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.1.
+    </div>
+  </body>
+</html>

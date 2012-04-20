@@ -1,0 +1,11 @@
+.. _searching:
+
+*******
+Search
+*******
+
+Search is both contextual and dynamic. This means that different search options are presented depending on whether you are in the :doc:`survey-list`, :doc:`user-admin` or :doc:`results`
+
+|survey-search_png|
+
+.. |survey-search_png| image:: images/survey-search.png
