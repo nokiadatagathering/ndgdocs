@@ -3,4 +3,10 @@ To compile move into sphinx/source and run
 
 sphinx-build -b html . ../../
 
-which ouputs the html in the project root. Probably should not be the root but anyway. 
+which ouputs the html in the project root. Probably should not be the root but anyway.
+
+The pdf is built by
+
+sphinx-build -b pdf . ../../
+
+and rst2pdf needs to be installed (apt-get install rst2pdf) 
