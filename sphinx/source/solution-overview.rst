@@ -15,8 +15,6 @@ The process with Nokia Data Gathering begins with survey creation, which enables
 Nokia Data Gathering then is used to create and send surveys to mobile devices via HTTP, receive responses, export data to Excel, administer users, questionnaires and responses, graphically represent survey results and map real-time GPS-based data. It can also send sms messages to users.
 
 .. figure:: images/process.png
-   :scale: 80 %
-   :width: 80%
    :alt: Filter
 
    Nokia Data Gathering work flow

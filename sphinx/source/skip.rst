@@ -9,8 +9,6 @@ Skip Logic which is also called relevance is a way to make a question be skipped
 The best way to explain how this works is through an example which is taken from the `XForms Training Materials <https://bitbucket.org/javarosa/javarosa/wiki/buildxforms>`_ Suppose we only want to ask the question 'Are you pregnant?' if the sex of the patient is female. In the :doc:`editor` create a survey with an exclusive choice question, the 'Are you pregnant' question and another random question which all respondents can answer. They do not need to be in separate categories but are shown this way for clarity.
 
 .. figure:: images/skip-form.png
-   :scale: 80 %
-   :width: 80%
    :alt: Skip Logic creation in the editor
 
    Skip Logic creation in the survey editor
@@ -18,16 +16,12 @@ The best way to explain how this works is through an example which is taken from
 Hovering next to the available options in the exclusive choice question makes an arrow appear. 
 
 .. figure:: images/skip-arrow.png
-   :scale: 80 %
-   :width: 80%
    :alt: Arrow appears
 
 
 This arrow can now be dragged and dropped on the question to be skipped to if this answer option is selected
 
 .. figure:: images/skip-arrow-drag.png
-   :scale: 80 %
-   :width: 80%
    :alt: Arrow drag
 
    Arrows can be dragged to represent skip logic relationships
@@ -35,8 +29,6 @@ This arrow can now be dragged and dropped on the question to be skipped to if th
 The relationship is then visually represented by a change in the arrow color on the exclusive choice option
 
 .. figure:: images/blue-arrow.png
-   :scale: 80 %
-   :width: 80%
    :alt: Skip Logic realtionship represented by a change in arrow color
 
    Skip Logic realtionship represented by a change in arrow color
@@ -44,8 +36,6 @@ The relationship is then visually represented by a change in the arrow color on 
 Anyone now answering 'Male' to the Sex of the Patient exclusive choice question will now not be able to answer the question 'Are you pregnant'. 
 
 .. figure:: images/skip-arrow.png
-   :scale: 80 %
-   :width: 80%
    :alt: Greyed out
 
 

@@ -9,8 +9,6 @@ To get started with Nokia Data Gathering Playground, you need to `register on th
 
 
 .. figure:: images/register.png
-   :scale: 80 %
-   :width: 80%
    :alt: Register
 
    The registration form

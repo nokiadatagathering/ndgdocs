@@ -14,6 +14,9 @@ Welcome to Nokia Data Gathering's documentation!
     :width: 6.4984in
     :height: 2.7102in
 
+**I'm ready to** `start collecting data <https://nokiadatagathering.net>`_
+---------------------------------------------------------------------------
+
 `Mailing List <https://mailman-mail5.webfaction.com/listinfo/ndg-discuss>`_, `Source Code <https://github.com/nokiadatagathering>`_, `Older Releases and Documentation <https://projects.developer.nokia.com/ndg>`_
 
 Contents:

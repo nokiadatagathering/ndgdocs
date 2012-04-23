@@ -9,8 +9,6 @@ Survey List
 After logging in the list of surveys that are available for that user are shown
 
 .. figure:: images/survey.png
-   :scale: 80 %
-   :width: 80%
    :alt: Surveys
  
    Survey List
@@ -22,8 +20,6 @@ Surveys can be filtered by clicking on either **Building** or **Available**
 
 
 .. figure:: images/building.png
-   :scale: 80 %
-   :width: 80%
    :alt: Filter
 
    Survey Filter to show only surveys currently being built
@@ -31,8 +27,6 @@ Surveys can be filtered by clicking on either **Building** or **Available**
 and to return to the default list showing all surveys (i.e to turn off the filter) click the red highlighted text. Surveys are made **Available** by being sent to a device. After a survey is made **Available** it can no longer be edited. It can however be duplicated and then edited again. To do this click the duplicate icon on the survey toolbar.
 
 .. figure:: images/duplicate.png
-   :scale: 80 %
-   :width: 80%
    :alt: Duplicate
 
    Duplicate a survey
@@ -46,8 +40,6 @@ Clicking **Download** opens a browser File Save dialog and the raw survey xml ca
 
 
 .. figure:: images/download.png
-   :scale: 80 %
-   :width: 80%
    :alt: Download
 
    Download a survey
@@ -56,8 +48,6 @@ Clicking **Download** opens a browser File Save dialog and the raw survey xml ca
 **Upload** is the same process but in reverse and is only available when **Building** surveys.
 
 .. figure:: images/upload.png
-   :scale: 80 %
-   :width: 80%
    :alt: Upload Survey
 
    Survey Upload dialog box
@@ -65,8 +55,6 @@ Clicking **Download** opens a browser File Save dialog and the raw survey xml ca
 and is a useful function if for example a user has an existing survey created using another Open Rosa compatible survey builder that they wish to use with Nokia Data Gathering. Clicking **Send** presents a list of Users and their corresponding telephone numbers
 
 .. figure:: images/send.png
-   :scale: 80 %
-   :width: 80%
    :alt: Send Survey
 
    Send Survey dialog with Usernames and Phone Numbers
@@ -77,8 +65,6 @@ The final button on the survey toolbar is **Edit** and clicking this on a survey
 
 
 .. figure:: images/add-survey.png
-   :scale: 80 %
-   :width: 80%
    :alt: Add survey
 
    Survey Creation
