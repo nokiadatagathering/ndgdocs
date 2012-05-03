@@ -31,6 +31,6 @@ then click the new question text to edit the question you would like to ask.
 
 .. |new-question_png| image:: images/new-question.png
 
-Clicking the question text will open out into the questions toolbar
+Clicking the question text will open out into the :doc:`questions` toolbar
 
  

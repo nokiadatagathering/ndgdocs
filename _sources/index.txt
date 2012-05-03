@@ -30,6 +30,7 @@ Contents:
    getting-started.rst
    survey-list.rst
    editor.rst
+   questions.rst
    skip.rst
    results.rst
    searching.rst

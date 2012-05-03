@@ -48,3 +48,8 @@ along with buttons to save or view the generated image.Clicking Pie Chart will s
    Are you a talker, thinker or doer
 
 again with the same buttons to save or view the image.
+
+Selecting Map View will display a map with the location of survey responses. Clicking on the icon will show information about the response returned from that location. The map can be panned and zoomed or displayed in either the default or satellite/terrain.
+
+.. figure:: images/map.png
+   :alt: map View
