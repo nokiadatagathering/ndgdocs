@@ -4,19 +4,19 @@
 Survey List
 ***********
 
+The Nokia Data Gathering server is used to create and make surveys available to registered users and their mobile devices. Responses from the users' mobile devices are sent to the server over the mobile network, a wireless network or a cable connection. The server is also used to export data to CSV and Excel formats, administer users, devices, questionnaires and responses, map real-time GPS-based data, and review results as selected graphics.
 
-
-After logging in the list of surveys that are available for that user are shown
+After logging in to the server, you will see the list of surveys that are available to you as a user, as in the figure below:
 
 .. figure:: images/survey.png
    :alt: Surveys
  
    Survey List
 
-with each survey having a **SURVEY NAME**, **DATE**, **PUBLISHER** and a number of **RESULTS** sent back for that survey. If responses have come back for a particular survey then the number of responses becomes a link to the :doc:`results` page.
+Each survey will have a **SURVEY NAME**, **DATE**, **PUBLISHER** and the number of **RESULTS** that have been sent back for that particular survey. If there are responses received for a particular survey, then the number of responses will appear as a clickable a link to the :doc:`results` page, from which you can view the received responses.
 
 
-Surveys can be filtered by clicking on either **Building** or **Available** 
+You can filter the surveys by clicking on either **Building** for surveys that are still in the process of being created or built,  or **Available** for those that have been made available to users.
 
 
 .. figure:: images/building.png
@@ -24,7 +24,9 @@ Surveys can be filtered by clicking on either **Building** or **Available**
 
    Survey Filter to show only surveys currently being built
 
-and to return to the default list showing all surveys (i.e to turn off the filter) click the red highlighted text. Surveys are made **Available** by being sent to a device. After a survey is made **Available** it can no longer be edited. It can however be duplicated and then edited again. To do this click the duplicate icon on the survey toolbar.
+To return to the default list, which shows all surveys (i.e to turn off the filter) click the red highlighted text. 
+
+To send a survey to a device, you need to make it **Available** by clicking on . After a survey is made **Available** it can no longer be edited. It can however be duplicated and then edited again. To do this click the duplicate icon on the survey toolbar.
 
 .. figure:: images/duplicate.png
    :alt: Duplicate
