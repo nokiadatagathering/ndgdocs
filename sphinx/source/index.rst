@@ -17,7 +17,7 @@ Welcome to Nokia Data Gathering's documentation!
 **I'm ready to** `start collecting data <https://nokiadatagathering.net>`_
 ---------------------------------------------------------------------------
 
-`Mailing List <https://mailman-mail5.webfaction.com/listinfo/ndg-discuss>`_, `Source Code <https://github.com/nokiadatagathering>`_, `Older Releases and Documentation <https://projects.developer.nokia.com/ndg>`_
+`Mailing List <https://mailman-mail5.webfaction.com/listinfo/ndg-discuss>`_, `Source Code <https://github.com/nokiadatagathering>`_, `Older Releases and Documentation <https://projects.developer.nokia.com/ndg>`_, `Windows Phone Documentation (.docx) <http://docs.nokiadatagathering.net/WindowsPhone.docx>`_
 
 Contents:
 
