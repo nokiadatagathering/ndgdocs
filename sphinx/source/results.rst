@@ -9,16 +9,20 @@ Clicking on the number of results link on the :doc:`survey-list` page shows the 
 .. figure:: images/results-page.png
    :alt: Results Page
 
-   Results Page
-
 with the Result Title, Date Sent, User and Location information displayed. Clicking the select box next to the Result Title selects all results
 
 .. figure:: images/select-all-results.png
    :alt: Select All Results
 
-   All results selected
 
-and clicking again deselects all. Results can also be selected individually and once the required set are chosen can either be exported (to either Excel or KML) or can be represented visually.
+and clicking again deselects all. Results can also be selected individually and then previewed by clicking the preview icon
+
+.. figure:: images/preview-result.png
+   :alt: Preview Icon
+
+This preview functionality is also available on the map by clicking on the points of interest
+
+Once the required set are chosen can either be exported (to either Excel or KML) or can be represented visually.
 If results in the selected set have images then a dialogue is presented when exporting to Excel
 
 .. figure:: images/export-images.png
@@ -49,7 +53,9 @@ along with buttons to save or view the generated image.Clicking Pie Chart will s
 
 again with the same buttons to save or view the image.
 
-Selecting Map View will display a map with the location of survey responses. Clicking on the icon will show information about the response returned from that location. The map can be panned and zoomed or displayed in either the default or satellite/terrain.
+Selecting Map View will display a map with the location of survey responses. Clicking on the icon will show information about the response returned from that location. The map can be panned and zoomed or displayed in either the default or satellite/terrain. Clicking on the points displays a preview of that result
 
 .. figure:: images/map.png
    :alt: map View
+   
+

@@ -4,7 +4,7 @@
 Question Types
 **************
 
-Eight question types are currently implemented
+Nine question types are currently implemented. All of the questions can be made required or not by checking the `Required` check box (as seen for example on the `Location` question type below)
 
 .. figure:: images/question-types.png
    :alt: Question Types
@@ -71,5 +71,15 @@ Time questions are used for time type questions. Click on the text to edit the q
 
 .. figure:: images/time.png
    :alt: Time Question Type
+   
+9. Location
+
+This will take a GPS reading and attach it to the question
+
+.. figure:: images/location.png
+   :alt: Location Question Type
+   
+
+
 
 

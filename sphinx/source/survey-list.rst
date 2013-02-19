@@ -26,7 +26,7 @@ You can filter the surveys by clicking on either **Building** for surveys that a
 
 To return to the default list, which shows all surveys (i.e to turn off the filter) click the red highlighted text. 
 
-To send a survey to a device, you need to make it **Available** by clicking on . After a survey is made **Available** it can no longer be edited. It can however be duplicated and then edited again. To do this click the duplicate icon on the survey toolbar.
+To send a survey to a device, you need to make it **Available** by clicking on Send and then choosing a user (this is different from previous versions of Nokia Data Gathering where surveys needed to be explicity made **Available** in the editor) . After a survey is made **Available** it can no longer be edited. It can however be duplicated and then edited again. To do this click the duplicate icon on the survey toolbar.
 
 .. figure:: images/duplicate.png
    :alt: Duplicate
@@ -47,7 +47,7 @@ Clicking **Download** opens a browser File Save dialog and the raw survey xml ca
    Download a survey
 
 
-**Upload** is the same process but in reverse and is only available when **Building** surveys.
+**Upload** is the same process but in reverse and is only available when **Building** surveys.  When a survey is uploaded by a user it will appear in the servers main `admin` user survey list. 
 
 .. figure:: images/upload.png
    :alt: Upload Survey
