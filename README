@@ -1,5 +1,6 @@
+sudo apt-get install python-sphinx
 
-To compile move into sphinx/source and run
+then move into sphinx/source of the check out and run
 
 sphinx-build -b html . ../../
 
