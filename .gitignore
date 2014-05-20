@@ -1,0 +1,9 @@
+# wildcards
+*~
+*.html
+*.pdf
+
+# ignore all directories and files.
+_images/**/*
+_sources/**/* 
+_static/**/*
