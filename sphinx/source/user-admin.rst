@@ -4,41 +4,42 @@
 User Admin
 **********
 
-The User Admin is accessed by clicking the link to the User Admin on the :doc:`survey-list` page.
+The Users section is accessed by clicking the link on the :doc:`survey-list` page.
 
 .. figure:: images/user-admin.png
-   :alt: User Admin Link
-
-   User Admin Link
-
-which presents all the users and groups which belong to the currently logged in user. Both Users and Groups are added by dragging the plus button
-
-.. figure:: images/drag-group.png
-   :alt: Drag plus button into Group column
-
-   Drag plus button into Group column
-
-and dropping on the Group column which causes a dialogue to open where the group name can be added
+   :alt: Users Link
 
 
-.. figure:: images/group-drop.png
-   :alt: Drop on Group Column
+which presents all the users and groups which belong to the currently logged in user. Both Users and Groups are added by clicking the buttons Add a new User and Add a new group
 
-   Drop on Group Column
+.. figure:: images/group-add.png
+   :alt: Add a new group
 
-Adding Users functions the same way, dropping the 'plus' button on the Users column
+
+which opens a field to enter the group name
+
+
+.. figure:: images/group-enter.png
+   :alt: Enter Group Name
+
+
+Adding Users functions the same way by clicking on the button
 
 .. figure:: images/add-user.png
    :alt: Adding a user
 
-   Adding a user
 
-and the dialogue asks for a user name, password and a phone number. It is also possible to choose the permissions which will be assigned to the user.
+and the dialogue asks for a number of details about the new user. It is also possible to choose the permissions which will be assigned to the user. 
 
-Both Users and Groups can be deleted by using the toolbar and it is also possible to send sms messages to users and to all members of the group 
+Both Users and Groups can be deleted by selecting the user or group and choosing the appropriate icon on the toolbar toolbar. It is also possible to send sms messages to users and to all members of the group using this toolbar
 
 .. figure:: images/send-sms.png
    :alt: Sending all members of a group an SMS message
 
-   Sending all members of a group an SMS message
+
+as well as edit user information
+
+.. figure:: images/edit-user.png
+   :alt: Editing a users details
+
 

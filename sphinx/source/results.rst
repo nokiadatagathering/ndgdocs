@@ -4,7 +4,7 @@
 Results
 *******
 
-Clicking on the number of results link on the :doc:`survey-list` page shows the Results List page
+Clicking on the number of results link on the :doc:`survey-list` page shows the Results List page and its toolbar
 
 .. figure:: images/results-page.png
    :alt: Results Page
@@ -14,48 +14,49 @@ with the Result Title, Date Sent, User and Location information displayed. Click
 .. figure:: images/select-all-results.png
    :alt: Select All Results
 
-
-and clicking again deselects all. Results can also be selected individually and then previewed by clicking the preview icon
+and clicking again deselects all. Results can also be selected individually and then previewed by clicking anywhere on the result
 
 .. figure:: images/preview-result.png
-   :alt: Preview Icon
+   :alt: Preview Result
 
 This preview functionality is also available on the map by clicking on the points of interest
 
-Once the required set are chosen can either be exported (to either Excel or KML) or can be represented visually.
-If results in the selected set have images then a dialogue is presented when exporting to Excel
+Once the required set are chosen they can be exported (to either Excel, CSV or KML) or can be represented visually.
+To export click that icon on the toolbar
 
-.. figure:: images/export-images.png
-   :alt: Export results with images
+.. figure:: images/export-icon.png
+   :alt: Export
 
-   Export results with images
+Rather than manually exporting, results can be exported automatically using the schedule button. This presents options to select the date from and to and also an email address to send the export. Any results then collected for that particular survey during those the dates will be sent as an attachement to the email
 
-Selecting the Graph View button shows the Survey Name along with a list of all the questions in the survey. Exclusive choice type questions have a link to represent the selected results as a Pie Chart and Integer type questions have a link to represent the selected results as a Bar chart. 
+.. figure:: images/scheduler.png
+   :alt: Schedule Export
+
+Selecting the 'View Selected Results on a Chart' button from the results toolbar opens a pop up where questions which can be represented using charts are displayed 
 
 .. figure:: images/graphing.png
    :alt: Graphing Options
 
-   Graphing Options
 
-Clicking Bar Chart for example will show a bar chart with the total Number of Answers as the y axis and the question on the x
+Clicking Bar Chart for example will show a bar chart with the respondents answer as the x axis and the number of respondents as the y 
 
 .. figure:: images/bar.png
-   :alt: How many times do you laugh per day?
+   :alt: How old are you?
 
-   How many times do you laugh per day?
+   How old are you?
 
-along with buttons to save or view the generated image.Clicking Pie Chart will show a pie chart with the questions represented as colors with a legend embedded
+Clicking the image will bring an option to save it locally.Clicking Pie Chart will show a pie chart with the questions represented as colors with a legend embedded
 
 .. figure:: images/pie.png
-   :alt: Are you a talker, thinker or doer
+   :alt: Are you crab?
 
-   Are you a talker, thinker or doer
+   Are you crab?
 
-again with the same buttons to save or view the image.
 
 Selecting Map View will display a map with the location of survey responses. Clicking on the icon will show information about the response returned from that location. The map can be panned and zoomed or displayed in either the default or satellite/terrain. Clicking on the points displays a preview of that result
 
 .. figure:: images/map.png
    :alt: map View
    
+
 

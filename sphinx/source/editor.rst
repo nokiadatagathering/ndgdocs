@@ -4,33 +4,56 @@
 Editor
 *******
 
-A new or existing survey has a name which can be clicked to edit and any number of categories and questions. Actually adding categories and questions is done by dragging from the **Drag to add new category** and **Drag to add new question** plus + buttons.
+The editor is where new surveys or questionnaires are built and saved. This is the screen you will see after clicking the Create a new Survey button
 
-.. figure:: images/category-drag.png
-   :alt: Drag button to add new category
+.. figure:: images/builder.png
+   :alt: Builder
 
-   A new category being dragged into a survey
+and when editing the survey title. Click the green tick to save any changes
 
-drop either above or below existing categories and the new category will appear. Click the name to edit
+.. figure:: images/edit_survey_title.png
+   :alt: Editing the survey title
 
-.. figure:: images/category-name-edit.png
-   :alt: Click category name to edit
+Various :doc:`questions` are available to select and for this editor tutorial we will create a short household survey. This will demonstrate some of the functionalities of the editor. To start create a descriptive question for name, and integer question for age and an exclusive choice question for the sex of the respondent. This can be seen below
 
-   Click category name to edit
+.. figure:: images/household.png
+   :alt: Household Survey
 
-then drag the new question plus + button to add a question
+we will skip the Women's Health category if the respondent answered that their sex is male. This is done by adding a skip logic option. Select the DEFAULT Go To be the Household Income category (which follows the Women's Health category) and then 'If the Answer is Female then skip to Women's Health'
 
-.. figure:: images/drag-question.png
-   :alt: Drag button to add new question
+.. figure:: images/skip_logic_option.png
+   :alt: Skip Logic Option
 
-   A new question being dragged into a survey
+In the Household Income category add a note saying that questions about income are optional 
 
-then click the new question text to edit the question you would like to ask.
+.. figure:: images/note.png
+   :alt: Note to the respondent
 
-|new-question_png|
+and then save the survey. Move to the Survey List and send the survey
 
-.. |new-question_png| image:: images/new-question.png
+.. figure:: images/send_household_survey.png
+   :alt: Send household survey
 
-Clicking the question text will open out into the :doc:`questions` toolbar
+Open the mobile application as click the button to refresh the list of surveys
+
+.. figure:: images/toolbar_wp.png
+   :alt: Windows phone toolbar
+
+to make the survey appear. 
+
+.. figure:: images/survey_list_wp.png
+   :alt: Windows phone survey list
+
+Click on the survey name and click the plus icon to begin a new response
+
+.. figure:: images/new_response_wp.png
+   :alt: Windows phone new response
+
+then fill in the answers as appropriate
+
+.. figure:: images/answers_wp.png
+   :alt: Windows phone answering a survey
+
+
 
  

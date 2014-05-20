@@ -3,21 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Nokia Data Gathering's documentation!
-================================================
+Welcome to Nokia Data Gathering's server documentation!
+=======================================================
 
-|10000000000005320000022BA8CAC42C_png|
+.. figure:: images/index.png
 
-
-
-.. |10000000000005320000022BA8CAC42C_png| image:: images/10000000000005320000022BA8CAC42C.png
-    :width: 6.4984in
-    :height: 2.7102in
 
 **I'm ready to** `start collecting data <https://nokiadatagathering.net>`_
 ---------------------------------------------------------------------------
-
-`Mailing List <https://mailman-mail5.webfaction.com/listinfo/ndg-discuss>`_, `Source Code <https://github.com/nokiadatagathering>`_, `Older Releases and Documentation <https://projects.developer.nokia.com/ndg>`_, `Windows Phone Documentation (.pdf) <http://docs.nokiadatagathering.net/WindowsPhone.pdf>`_
 
 Contents:
 
@@ -28,6 +21,7 @@ Contents:
    intro.rst   
    solution-overview.rst
    getting-started.rst
+   install.rst
    survey-list.rst
    editor.rst
    questions.rst
@@ -35,6 +29,7 @@ Contents:
    results.rst
    searching.rst
    user-admin.rst
+   notifications.rst
 
 
 
