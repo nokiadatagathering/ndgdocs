@@ -20,6 +20,7 @@ Contents:
 
    intro.rst   
    solution-overview.rst
+   release-archive.rst
    getting-started.rst
    install.rst
    survey-list.rst
@@ -29,7 +30,7 @@ Contents:
    results.rst
    searching.rst
    user-admin.rst
-   notifications.rst
+
 
 
 
