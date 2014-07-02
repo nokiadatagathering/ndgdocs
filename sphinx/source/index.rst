@@ -26,7 +26,6 @@ Contents:
    survey-list.rst
    editor.rst
    questions.rst
-   skip.rst
    results.rst
    searching.rst
    user-admin.rst
