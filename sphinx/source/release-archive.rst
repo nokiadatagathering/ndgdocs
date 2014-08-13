@@ -18,7 +18,7 @@ Added a Geopoint Question type as well as mandatory questions. Also a scheduler 
 **5.04/5.11 Flying Finn**
 Many bugfixes and improvements in usability with many editor enhancements. Allowed editing of user accounts and for a user to become part of multiple groups. Surveys can also be sent to groups. 
 
-**6.04 Gilas Guinan**  
+**6.04 Gilas Guiuan**  
 The server was rewritten in node.js with new switch logic, cascading selects and note type questions. A client was developed for windows phone 8 and also a tablet version of the app. The roadmapping for this release was held in Manila, The Phillipines      
 
 
