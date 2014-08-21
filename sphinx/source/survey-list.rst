@@ -4,7 +4,7 @@
 Survey List
 ***********
 
-The Nokia Data Gathering server is used to create and make surveys available to registered users and their mobile devices. Responses from the users' mobile devices are sent to the server over the mobile network, a wireless network or a cable connection. The server is also used to export data to CSV and Excel formats, administer users, devices, questionnaires and responses, map real-time GPS-based data, and review results as selected graphics.
+The Microsoft Data Gathering server is used to create and make surveys available to registered users and their mobile devices. Responses from the users' mobile devices are sent to the server over the mobile network, a wireless network or a cable connection. The server is also used to export data to CSV and Excel formats, administer users, devices, questionnaires and responses, map real-time GPS-based data, and review results as selected graphics.
 
 After logging in to the server, you will see the list of surveys that are available to you as a user, as in the figure below:
 
@@ -57,6 +57,6 @@ The upload button is next to the Create Survey button and when uploaded a survey
 .. figure:: images/upload.png
    :alt: Upload Survey
 
-The final button on the survey toolbar is **Edit** and clicking this on a survey in the **Building** state shows the :doc:`editor` which is integrated into Nokia Data Gathering. If rather than editing an existing survey you would like to create a new one click the Create a new Survey button next to the upload button in the image above
+The final button on the survey toolbar is **Edit** and clicking this on a survey in the **Building** state shows the :doc:`editor` which is integrated into Microsoft Data Gathering. If rather than editing an existing survey you would like to create a new one click the Create a new Survey button next to the upload button in the image above
 
 

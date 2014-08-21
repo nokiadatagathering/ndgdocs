@@ -6,7 +6,7 @@ Release Archive
 
 
 **4.04 Dazzling Dourado**
- Included an updated Java client, a new server, and a new WP client. The WP client of Nokia Data Gathering was developed through a partnership between Nokia, Seton Hall University’s Center of Mobile Research and Innovation, and Microsoft. The roadmapping meeting for the next release was held at Seton Hall University in New York, USA
+ Included an updated Java client, a new server, and a new WP client. The WP client of Microsoft Data Gathering was developed through a partnership between Nokia, Seton Hall University’s Center of Mobile Research and Innovation, and Microsoft. The roadmapping meeting for the next release was held at Seton Hall University in New York, USA
 
 .. figure:: images/dazzling.png
    :alt: Dazzling Dourado server
