@@ -14,7 +14,7 @@ with the Result Title, Date Sent, User and Location information displayed. Click
 .. figure:: images/select-all-results.png
    :alt: Select All Results
 
-and clicking again deselects all. Results can also be selected individually and then previewed by clicking anywhere on the result
+and clicking again deselects all. Results can also be selected individually. Results can be previewed by clicking anywhere on the result
 
 .. figure:: images/preview-result.png
    :alt: Preview Result

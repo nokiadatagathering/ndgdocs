@@ -19,7 +19,7 @@ The process with Microsoft Data Gathering begins with survey creation, which ena
 Microsoft Data Gathering then is used to create and send surveys to mobile devices via HTTP, receive responses, export data to Excel or .csv, administer users, questionnaires and responses, graphically represent survey results and map real-time GPS-based data. It can also be used to send sms messages to users and fieldworkers.
 
 .. figure:: images/process.png
-   :alt: NDG Process
+   :alt: MDG Process
 
 
 

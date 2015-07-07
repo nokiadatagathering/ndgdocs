@@ -13,7 +13,7 @@ To get started with Microsoft Data Gathering, you need to create an account on o
 .. figure:: images/register.png
    :alt: Register as a super admin to the server
 
-
+NOTE: This registration form is also accessible using screen readers and accessibility tools for those with visual impairment
 
 After you have filled in the requested information and submitted it, a confirmation email will be sent to the email address you entered. To complete the registration process, you need to click on the link provided in the email. After your Microsoft Data Gathering Playground account has been confirmed, you will be able to return to the server and log in with the username and password you selected.
 

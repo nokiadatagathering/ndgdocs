@@ -9,7 +9,10 @@ The editor is where new surveys or questionnaires are built and saved. This is t
 .. figure:: images/builder.png
    :alt: Builder
 
-and when editing the survey title. Click the green tick to save any changes
+
+NOTE: This editor is also accessible using screen readers and accessibility tools for those with visual impairment   
+
+and when editing the survey title. Click the blue tick to save any changes
 
 .. figure:: images/edit_survey_title.png
    :alt: Editing the survey title

@@ -4,13 +4,13 @@
    contain the root `toctree` directive.
 
 Welcome to Microsoft Data Gathering's server documentation!
-=======================================================
+===========================================================
 
 .. figure:: images/index.png
 
 
-**I'm ready to** `start collecting data <https://nokiadatagathering.net>`_
----------------------------------------------------------------------------
+**I'm ready to** `start collecting data <https://www.microsoftdatagathering.net>`_
+----------------------------------------------------------------------------------
 
 Contents:
 

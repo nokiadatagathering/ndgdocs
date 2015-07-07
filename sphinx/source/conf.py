@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Nokia Data Gathering'
+project = u'Microsoft Data Gathering'
 copyright = u'Microsoft Mobile Oy'
 
 # The version info for the project you're documenting, acts as replacement for
