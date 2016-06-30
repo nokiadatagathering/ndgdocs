@@ -25,7 +25,7 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.todo', 'sphinx.ext.ifconfig', 'rst2pdf.pdfbuilder', 'sphinx-docxbuilder']
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.todo', 'sphinx.ext.ifconfig', 'rst2pdf.pdfbuilder']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -164,7 +164,7 @@ html_domain_indices = True
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'NokiaDataGatheringdoc'
+htmlhelp_basename = 'MicrosoftDataGatheringdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -178,7 +178,7 @@ htmlhelp_basename = 'NokiaDataGatheringdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'NokiaDataGathering.tex', u'Nokia Data Gathering Documentation',
+  ('index', 'MicrosoftDataGathering.tex', u'Microsoft Data Gathering Documentation',
    u'Jozian', 'manual'),
 ]
 
@@ -211,7 +211,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', u'Nokia Data Gathering', u'Nokia Data Gathering Documentation',
+    ('index', u'Microsoft Data Gathering', u'Microsoft Data Gathering Documentation',
      [u'Jozian'], 1)
 ]
 
@@ -219,7 +219,7 @@ man_pages = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Nokia Data Gathering'
+epub_title = u'Microsoft Data Gathering'
 epub_author = u'Jozian'
 epub_publisher = u'Jozian'
 epub_copyright = u'2012, Microsoft Mobile Oy'
@@ -273,7 +273,7 @@ epub_copyright = u'2012, Microsoft Mobile Oy'
 # regardless of the global pdf_compressed setting.
     
 pdf_documents = [ 
-        ('index', u'NokiaDataGathering', u'Nokia Data Gathering', u'Jozian'),
+        ('index', u'MicrosoftDataGathering', u'Microsoft Data Gathering', u'Jozian'),
     ]
 
 # A comma-separated list of custom stylesheets. Example:
